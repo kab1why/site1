@@ -16,6 +16,14 @@
   b {
     color: #7F56D9;
   }
+  
+/* .title-1 {
+  font-size: 40px;
+} */
+
+.desc-1 {
+  font-size: 16px;
+}
 
 .colaborators .info b {
     font-size: 30px;
