@@ -20,10 +20,59 @@ header .highlighted {
     overflow: hidden;
 }
 
+
 header .highlighted a {
     background-color: #7f56d9;
     color: #fff;
     padding: 8px 15px;
+}
+
+.highlighted {
+    display: flex;
+    width: fit-content;
+    border: 3px solid  rgba(127, 86, 217, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.highlighted a {
+    background-color: #7f56d9;
+    color: #fff;
+    padding: 16px 28px;
+}
+
+.transperant {
+    display: flex;
+    width: fit-content;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+.info {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title-1 {
+    margin-left: 60px;
+}
+
+.desc-1 {
+    margin-left: 60px;
+}
+
+.transperant a {
+    background-color: #E9D7FE;
+    color: #7f56d9;
+    padding: 16px 28px;
+}
+
+.buttons-1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-left: 60px;
 }
 
 header .general-links {
@@ -61,11 +110,17 @@ header {
     font-size: 60px;
 }
 
-.collaborators {
+.colaborators {
+    margin-left: 60px;
+    
 }
 
-.collaborators .company-icons{
+.colaborators .company-icons{
+display: flex;
+flex-direction: row;
+align-items: center;
 }
 
-.collaborators .company-icons img { 
+.colaborators .company-icons img { 
+margin-right: 60px;
 }
