@@ -1,21 +1,21 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
   
-  body {
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(36, 187, 140, 0.02);
-  }
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(36, 187, 140, 0.02);
+}
   
-  a {
-    text-decoration: none;
-  }
+a {
+  text-decoration: none;
+}
 
-  b {
-    color: #7F56D9;
-  }
+b {
+  color: #7F56D9;
+}
   
 /* .title-1 {
   font-size: 40px;
