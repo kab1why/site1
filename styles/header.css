@@ -54,25 +54,16 @@ header .highlighted a {
     margin-bottom: 30px;
 }
 
-.title-1 {
-    margin-left: 60px;
-}
-
-.desc-1 {
-    margin-left: 60px;
-}
-
 .transperant a {
     background-color: #E9D7FE;
     color: #7f56d9;
     padding: 16px 28px;
 }
 
-.buttons-1 {
+.buttons-another-like {
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
-    margin-left: 60px;
 }
 
 header .general-links {
@@ -111,7 +102,6 @@ header {
 }
 
 .colaborators {
-    margin-left: 60px;
     
 }
 
