@@ -1,85 +1,84 @@
 .search {
-    border: 1px solid #d0d5dd;
-    border-radius: 8px;
-    width: 360px;
-    height: 44px;
-    margin: 0 40px;
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  width: 360px;
+  height: 44px;
+  margin: 0 40px;
 }
 
 header a {
-    color: #101828;
-    font-size: 16px;
-    line-height: 24px;
+  color: #101828;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 header .highlighted {
-    display: flex;
-    width: fit-content;
-    border: 3px solid rgba(127, 86, 217, 0.2);
-    border-radius: 8px;
-    overflow: hidden;
+  display: flex;
+  width: fit-content;
+  border: 3px solid rgba(127, 86, 217, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-
 header .highlighted a {
-    background-color: #7f56d9;
-    color: #fff;
-    padding: 8px 15px;
+  background-color: #7f56d9;
+  color: #fff;
+  padding: 8px 15px;
 }
 
 .highlighted {
-    display: flex;
-    width: fit-content;
-    border: 3px solid  rgba(127, 86, 217, 0.2);
-    border-radius: 8px;
-    overflow: hidden;
+  display: flex;
+  width: fit-content;
+  border: 3px solid rgba(127, 86, 217, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .highlighted a {
-    background-color: #7f56d9;
-    color: #fff;
-    padding: 16px 28px;
+  background-color: #7f56d9;
+  color: #fff;
+  padding: 16px 28px;
 }
 
 .transperant {
-    display: flex;
-    width: fit-content;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-left: 30px;
+  display: flex;
+  width: fit-content;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-left: 30px;
 }
 
 .info {
-    margin-top: 30px;
-    margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .transperant a {
-    background-color: #E9D7FE;
-    color: #7f56d9;
-    padding: 16px 28px;
+  background-color: #e9d7fe;
+  color: #7f56d9;
+  padding: 16px 28px;
 }
 
 .buttons-another-like {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
 }
 
 header .general-links {
-    margin-right: 75px;
+  margin-right: 75px;
 }
 
 header .general-links a {
-    margin-right: 25px;
+  margin-right: 25px;
 }
 
-header .general-links a:last-child { 
-    margin-right: 0;
+header .general-links a:last-child {
+  margin-right: 0;
 }
 
 header a.sigh-in-link {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 header,
@@ -87,31 +86,48 @@ header .general-links,
 header nav,
 .collaborators,
 .collaborators .company-icons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 header {
-    justify-content: space-between;
-    height: 100px;
+  justify-content: space-between;
+  height: 100px;
 }
 
 .collaborators .info .text b {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .colaborators {
-    
 }
 
-.colaborators .company-icons{
-display: flex;
-flex-direction: row;
-align-items: center;
+.colaborators .company-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
+.colaborators .company-icons img {
+  margin-right: 60px;
+}
 
-.colaborators .company-icons img { 
-margin-right: 60px;
+.services .carousel-inner .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.services .carousel-inner .content .card:hover {
+  background-color: #7f56d9;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+h5:hover,
+p:hover,
+a:hover {
+  color: #fff;
 }
