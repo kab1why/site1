@@ -113,21 +113,21 @@ header {
   margin-right: 60px;
 }
 
-.services .carousel-inner .content {
+.services .carousel-inner {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
-.services .carousel-inner .content .card:hover {
+.services .carousel-inner .card:hover {
   background-color: #7f56d9;
   color: #fff;
   transition: all 0.5s;
 }
 
-h5:hover,
-p:hover,
-a:hover {
+.services h5:hover,
+.services p:hover,
+.services a:hover {
   color: #fff;
 }
