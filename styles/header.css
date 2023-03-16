@@ -92,6 +92,11 @@ header nav,
 }
 
 header {
+  position: fixed;
+  z-index: 1;
+}
+
+header {
   justify-content: space-between;
   height: 100px;
 }
@@ -113,7 +118,7 @@ header {
   margin-right: 60px;
 }
 
-.services .carousel-inner {
+.services .carousel-inner .card:hover {
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -101,6 +101,10 @@ h3 {
   font-size: 20px;
   color: #101828;
 }
+
+.desc {
+  margin-bottom: 40px;
+}
 /* color 1 - #7F56D9 */
 /* color 2 - #F9F5FF */
 /* color 3 - #D0D5DD */
