@@ -138,3 +138,83 @@ header {
 .services a:hover {
   color: #fff;
 }
+
+.explore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 10px;
+}
+
+.tutors .section-info .desc {
+  color: #667085;
+}
+
+.tutors .heroes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tutors .heroes .card img {
+  margin-top: 24px;
+  margin-left: 98px;
+  height: 80px;
+  width: 80px;
+}
+
+.tutors .heroes .card {
+  background-color: #f9fafb;
+  height: 340px;
+  width: 276px;
+}
+
+.tutors .heroes .card .card-body .card-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.tutors .heroes .card .card-body .hero-task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #6941c6;
+  font-size: 16px;
+}
+
+.tutors .heroes .card .card-body .hero-links img {
+  width: 20px;
+}
+
+.programs .carousel-inner .row .card .card-body .add-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.programs .carousel-inner .row .card .card-body .add-info .coach-icon {
+  margin-top: 61px;
+  margin-left: 12px;
+  margin-bottom: 32px;
+  width: 40px;
+  height: 40px;
+}
+
+.programs .carousel-inner .row .card .card-body .add-info .coach-name {
+  margin-left: 12px;
+  margin-top: 61px;
+}
+
+.programs .carousel-inner .row .card .card-body .add-info .price {
+  color: #6941c6;
+  font-size: 26px;
+  width: 84px;
+  height: 31px;
+  margin-top: 70px;
+  margin-left: 135px;
+}
