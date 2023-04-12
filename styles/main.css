@@ -110,3 +110,119 @@ h3 {
 /* color 3 - #D0D5DD */
 /* color 4 - #101828 */
 /* color 5 - rgba(36, 187, 140, .02) */
+
+/* responviness */
+@media screen and (max-width: 1228px) {
+  .main-banner .image {
+    transform: scale(0.8) translate(20px, 0);
+  }
+
+  .main-banner .right {
+    margin: 0 0 0 auto;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .main-banner {
+    transform: none;
+    flex-direction: column;
+  }
+
+  .main-banner .right {
+    margin: 0 auto;
+  }
+
+  .main-banner .right,
+  .main-banner .left {
+    width: 100%;
+  }
+
+  header .search {
+    display: none;
+  }
+
+  header .general-links {
+    margin: 0 16px 0 0;
+  }
+
+  .buttons-another-like {
+    margin: 50px 0 30px 0;
+    justify-content: center;
+  }
+
+  .colaborators {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .colaborators .company-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .colaborators .company-icons img {
+    margin-bottom: 20px;
+  }
+
+  .colaborators .info {
+    align-self: start;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    display: flex;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  .title-of-colab h1 {
+    margin: 30px 0;
+    text-align: center;
+  }
+
+  .buttons-another-like {
+    margin: 20px 0;
+  }
+
+  .main-banner .other {
+    display: none;
+  }
+
+  .main-banner .info {
+    align-self: center;
+  }
+
+  .main-banner .colaborators .info b {
+    font-size: 20px;
+  }
+
+  .main-banner .colaborators .info .text {
+    font-size: 16px;
+  }
+
+  .main-banner .colaborators .company-icons {
+    flex-direction: column;
+  }
+
+  .main-banner .colaborators .company-icons img {
+    margin-right: 0;
+  }
+
+  .main-banner .image {
+    transform: none;
+  }
+
+  .main-banner .circle {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .main-banner .circle img {
+    width: 80%;
+  }
+}
