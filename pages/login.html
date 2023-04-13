@@ -15,6 +15,59 @@
     />
   </head>
   <body>
-    hello
+    <div class="container">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Ім'я</label>
+          <input
+            type="name"
+            class="form-control"
+            id="exampleInputName1"
+            aria-describedby="namelHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputSecondName1" class="form-label"
+            >Прізвище</label
+          >
+          <input
+            type="SecondName"
+            class="form-control"
+            id="exampleInputSecondName1"
+            aria-describedby="secondnameHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Пошта</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            Ми ніколи не будемо поширювати твою пошту.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Пароль</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="button" class="btn btn-success" id="log-btn">
+          Success
+        </button>
+      </form>
+    </div>
+    <script src="/js/sing_in.js"></script>
   </body>
 </html>
