@@ -1,1 +1,6 @@
 /* first settings */
+
+.container form .btn {
+  color: #fff;
+  background-color: #7f56d9;
+}
